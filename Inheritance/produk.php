@@ -19,7 +19,7 @@ class Produk {
         $this->penerbit = $penerbit;
         $this->harga = $harga;
         $this->jmHalaman = $jmHalaman;
-        $this->waktuMain = $waktuM$this->waktuMain;
+        $this->waktuMain = $waktuMain$this->waktuMain;
         $this->tipe = $tipe;
     }
     
