@@ -1,0 +1,74 @@
+%YAML 1.1
+---
+# prakweb_2022_b_203040115.buku
+-
+  judul_buku: "Dikta & Hukum"
+  tahun_terbit: "31 Mei 2021"
+  penerbit_buku: "ASOKA AKSARA X LOVEABLE"
+  penulis_buku: "DHIA`AN FARAH"
+  gambar_buku: "dikta_dan_hukum.png"
+  harga_buku: "Rp 95.000"
+-
+  judul_buku: "Laut Bercerita"
+  tahun_terbit: "3 Agustus 2022"
+  penerbit_buku: "Gramedia Pustaka Utama"
+  penulis_buku: "Leila S. Chudori"
+  gambar_buku: "Laut_Bercerita.png"
+  harga_buku: "Rp 190.000"
+-
+  judul_buku: "Pelukis di Atas Awan (An Artist of the Floating Wo"
+  tahun_terbit: "27 September 2022"
+  penerbit_buku: "Gramedia Pustaka Utama"
+  penulis_buku: "Kazuo Ishiguro"
+  gambar_buku: "PelukisDiAtasAwan.png"
+  harga_buku: "Rp 92.000"
+-
+  judul_buku: "Pulang"
+  tahun_terbit: "1 Januari 2021"
+  penerbit_buku: "Sabak Grip Nusantara"
+  penulis_buku: "Tere Liye"
+  gambar_buku: "Pulang.png"
+  harga_buku: "Rp 89.000"
+-
+  judul_buku: "Sebuah Seni untuk Bersikap Bodo Amat"
+  tahun_terbit: "9 Maret 2022"
+  penerbit_buku: "Gramedia Widiasarana Indo"
+  penulis_buku: "Mark Manson"
+  gambar_buku: "Sebuah_seni.png"
+  harga_buku: "Rp 118.000"
+-
+  judul_buku: "Suaramu Jalan Pulang yang Kukenali"
+  tahun_terbit: "20 Januari 2020"
+  penerbit_buku: "Gramedia Pustaka Utama"
+  penulis_buku: "Adimas Immanuel"
+  gambar_buku: "SuaramuJalanYangKuKenali.png"
+  harga_buku: "Rp 92.000"
+-
+  judul_buku: "You Do You: Discovering Life through Experiments &"
+  tahun_terbit: "23 Desember 2020"
+  penerbit_buku: "Gramedia Pustaka Utama"
+  penulis_buku: "Fellexandro Ruby"
+  gambar_buku: "You_do_you.png"
+  harga_buku: "Rp 128.000"
+-
+  judul_buku: "Heartbreak Motel"
+  tahun_terbit: "8 April 2022"
+  penerbit_buku: "Gramedia Pustaka Utama"
+  penulis_buku: "Ika Natassa"
+  gambar_buku: "heartbreak_motel.png"
+  harga_buku: "Rp 99.000"
+-
+  judul_buku: "Filosofi Teras Edisi Baru-Filsafat Yunani-Romawi K"
+  tahun_terbit: "5 Januari 2022"
+  penerbit_buku: "Penerbit Buku Kompas"
+  penulis_buku: "Henry Manampiring"
+  gambar_buku: "filosofi_teras.png"
+  harga_buku: "Rp 98.000"
+-
+  judul_buku: "Kado Terbaik"
+  tahun_terbit: "8 Apr 2022"
+  penerbit_buku: "Gramedia Widiasarana Indo"
+  penulis_buku: "J.S. Khairen"
+  gambar_buku: "KadoTerbaik.png"
+  harga_buku: "Rp 89.000"
+...
