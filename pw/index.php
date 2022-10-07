@@ -2,6 +2,7 @@
 
 require 'functions.php';
 $buku = query("SELECT * FROM buku");
+
 ?>
 
 <!DOCTYPE html>
@@ -35,30 +36,24 @@ $buku = query("SELECT * FROM buku");
 
   <table class="tabel" border="0" cellpadding="20">
   <tr>
-        <th>No</th>
-        <th>Nama Buku</th>
-        <th>Tahun Terbit</th>
-        <th>Penerbit</th>
-        <th>Penulis</th>
-        <th>Gambar</th>
-        <th>Harga</th>
-    </tr>
+      <th>Nama Buku</th>
+      <th>Tahun Terbit</th>
+      <th>Gambar</th>
+      <th>Harga</th>
+  </tr>
 
-    <?php $i = 1; ?>
+    <?php $i = 1;?>
     <?php foreach ($buku as $sb) : ?>
-      <tr class="isi">
-        <td><?= $i ?></td>
-        <td><?= $sb['judul_buku']; ?></td>
-        <td><?= $sb['tahun_terbit']; ?></td>
-        <td><?= $sb['penerbit_buku']; ?></td>
-        <td><?= $sb['penulis_buku']; ?></td>
-        <td><img src="pw/img/<?= $sb['gambar_buku']; ?>" alt=""></td>
-        <td><?= $sb['harga_buku']; ?></td>
+      <tr>
+        <?php $i++; ?>
+        <td><?= $sb['judul']; ?></td>
+        <td><?= $sb['tahun']; ?></td>
+        <td><img src="img/<?= $sb['gambar']; ?>" href=""></td>
+        <td><?= $sb['harga']; ?></td>
         <td>
-          <a href="">Ubah</a> <a href="">Hapus</a>
+          <a href="detail.php?id=<?= $sb['id']; ?>">Lihat disini</a>
         </td>
       </tr>
-      <?php $i++; ?>
     <?php endforeach; ?>
   </table>
 
