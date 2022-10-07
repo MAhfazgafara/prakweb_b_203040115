@@ -11,7 +11,6 @@ class Produk {
             $harga = 0;
             $jmHalaman = "jmHalaman",
             $waktuMain = 0;
-            $tipe;
     
     public function __construct($judul, $penulis, $penerbit, $harga, $jmHalaman, $waktuMain) {
         $this->judul = $judul;
