@@ -38,10 +38,9 @@
     <td><?= $buku['penerbit']; ?></td>
     <td><?= $buku['penulis']; ?></td>
     <td><?= $buku['harga']; ?></td>
-    <a href="">Ubah</a> <a href="">Hapus</a>
+    <a href="ubah.php?id=<?= $buku['id']; ?>">UBAH</a> <a href="hapus.php?id=<?= $buku['id']; ?>" onclick="return confirm ('Silahkan konfirmasi');">HAPUS</a>
 </td>
 </ul>
-    <a href="index.php">Kembali ke menu utama</a>
-
+  <a href="index.php">Kembali ke menu utama</a>
 </body>
 </html>

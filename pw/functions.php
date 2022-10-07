@@ -36,7 +36,35 @@ function tambah($data){
                 VALUES
                 (null, '$judul', '$tahun', '$penerbit', '$penulis', '$gambar', $harga');
                 ";
-    msqli_query($conn, $query);
-    echo mysqli_error($conn);
+    mysqli_query($conn, $query) or die(mysqli_error($conn));
+    return mysqli_affected_rows($conn);
+}
+
+function hapus($id) {
+    $conn = koneksi();
+    mysqli_query($conn, "DELETE FROM buku WHERE id = $id") or die(mysqli_error($conn));
+    return mysqli_affected_rows($conn);
+}
+
+function ubah($data){
+    $conn = koneksi();
+
+    $id = $data['id'];
+    $judul = htmlspecialchars($data['judul']);
+    $tahun = htmlspecialchars($data['tahun']);
+    $penerbit = htmlspecialchars($data['penerbit']);
+    $penulis = htmlspecialchars($data['penulis']);
+    $gambar = htmlspecialchars($data['gambar']);
+    $harga = htmlspecialchars($data['harga']);
+
+    $query = "UPDATE buku SET
+                judul = '$judul',
+                tahun = '$tahun',
+                penerbit = '$penerbit',
+                penulis = '$penulis',
+                gambar = '$gambar',
+                harga = '$harga'
+            WHERE id = $id";
+    mysqli_query($conn, $query) or die(mysqli_error($conn));
     return mysqli_affected_rows($conn);
 }
