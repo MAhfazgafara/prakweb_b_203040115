@@ -20,4 +20,23 @@ function query($query){
 
     return $rows;
 }
-?>
+
+function tambah($data){
+    $conn = koneksi();
+
+    $judul = htmlspecialchars($data['judul']);
+    $tahun = htmlspecialchars($data['tahun']);
+    $penerbit = htmlspecialchars($data['penerbit']);
+    $penulis = htmlspecialchars($data['penulis']);
+    $gambar = htmlspecialchars($data['gambar']);
+    $harga = htmlspecialchars($data['harga']);
+
+    $query = "INSERT INTO
+                buku
+                VALUES
+                (null, '$judul', '$tahun', '$penerbit', '$penulis', '$gambar', $harga');
+                ";
+    msqli_query($conn, $query);
+    echo mysqli_error($conn);
+    return mysqli_affected_rows($conn);
+}

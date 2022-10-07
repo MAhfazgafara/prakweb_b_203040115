@@ -33,6 +33,9 @@ $buku = query("SELECT * FROM buku");
 
 <h1 class="text-center">Fetured Books</h1>
 
+  <a href="tambah.php">Tambah Data</a>
+  <br></br>
+
 
   <table class="tabel" border="0" cellpadding="20">
   <tr>
