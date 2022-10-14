@@ -5,6 +5,6 @@
         <hr class="my-4">
         <p>I am a designer, who aims to work with small businesses and marginalized communities 
         to bring their passions to life. I offer both design and development services of web applications or websites!</p>
-        <a class="btn btn-info btn-lg" href="<?= BASEURL ?>/about" role="button">About me</a>
+        <a class="btn btn-info btn-dark" href="<?= BASEURL ?>/about" role="button">About me</a>
     </div>
 </div>
